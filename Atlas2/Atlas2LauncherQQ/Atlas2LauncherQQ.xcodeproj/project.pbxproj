@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		239EE8642C709F6D00F801C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 239EE8632C709F6D00F801C9 /* AppDelegate.m */; };
+		239EE8672C709F6D00F801C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 239EE8662C709F6D00F801C9 /* ViewController.m */; };
+		239EE8692C709F6F00F801C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 239EE8682C709F6F00F801C9 /* Assets.xcassets */; };
+		239EE86C2C709F6F00F801C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 239EE86A2C709F6F00F801C9 /* Main.storyboard */; };
+		239EE86E2C709F6F00F801C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 239EE86D2C709F6F00F801C9 /* main.m */; };
+		239EE8772C70E54C00F801C9 /* BGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 239EE8762C70E54C00F801C9 /* BGView.m */; };
+		239EE87A2C70E68E00F801C9 /* BGButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 239EE8792C70E68E00F801C9 /* BGButton.m */; };
+		239EE8812C72294800F801C9 /* SYFlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 239EE8802C72294800F801C9 /* SYFlatButton.m */; };
+		239EE8842C72311A00F801C9 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 239EE8822C72311900F801C9 /* Common.m */; };
+		239EE8862C723F7F00F801C9 /* getPlistName.sh in Resources */ = {isa = PBXBuildFile; fileRef = 239EE8852C723F7F00F801C9 /* getPlistName.sh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		239EE85F2C709F6D00F801C9 /* Atlas2LauncherQQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Atlas2LauncherQQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		239EE8622C709F6D00F801C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		239EE8632C709F6D00F801C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		239EE8652C709F6D00F801C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		239EE8662C709F6D00F801C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		239EE8682C709F6F00F801C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		239EE86B2C709F6F00F801C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		239EE86D2C709F6F00F801C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		239EE86F2C709F6F00F801C9 /* Atlas2LauncherQQ.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Atlas2LauncherQQ.entitlements; sourceTree = "<group>"; };
+		239EE8752C70E54C00F801C9 /* BGView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGView.h; sourceTree = "<group>"; };
+		239EE8762C70E54C00F801C9 /* BGView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGView.m; sourceTree = "<group>"; };
+		239EE8782C70E68E00F801C9 /* BGButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGButton.h; sourceTree = "<group>"; };
+		239EE8792C70E68E00F801C9 /* BGButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGButton.m; sourceTree = "<group>"; };
+		239EE87F2C72294800F801C9 /* SYFlatButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYFlatButton.h; sourceTree = "<group>"; };
+		239EE8802C72294800F801C9 /* SYFlatButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYFlatButton.m; sourceTree = "<group>"; };
+		239EE8822C72311900F801C9 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		239EE8832C72311900F801C9 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		239EE8852C723F7F00F801C9 /* getPlistName.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = getPlistName.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		239EE85C2C709F6D00F801C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		239EE8562C709F6D00F801C9 = {
+			isa = PBXGroup;
+			children = (
+				239EE8612C709F6D00F801C9 /* Atlas2LauncherQQ */,
+				239EE8602C709F6D00F801C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		239EE8602C709F6D00F801C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				239EE85F2C709F6D00F801C9 /* Atlas2LauncherQQ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		239EE8612C709F6D00F801C9 /* Atlas2LauncherQQ */ = {
+			isa = PBXGroup;
+			children = (
+				239EE8622C709F6D00F801C9 /* AppDelegate.h */,
+				239EE8632C709F6D00F801C9 /* AppDelegate.m */,
+				239EE8652C709F6D00F801C9 /* ViewController.h */,
+				239EE8662C709F6D00F801C9 /* ViewController.m */,
+				239EE8832C72311900F801C9 /* Common.h */,
+				239EE8822C72311900F801C9 /* Common.m */,
+				239EE8852C723F7F00F801C9 /* getPlistName.sh */,
+				239EE87E2C72294800F801C9 /* SYFlatButton */,
+				239EE8682C709F6F00F801C9 /* Assets.xcassets */,
+				239EE86A2C709F6F00F801C9 /* Main.storyboard */,
+				239EE86D2C709F6F00F801C9 /* main.m */,
+				239EE86F2C709F6F00F801C9 /* Atlas2LauncherQQ.entitlements */,
+			);
+			path = Atlas2LauncherQQ;
+			sourceTree = "<group>";
+		};
+		239EE87E2C72294800F801C9 /* SYFlatButton */ = {
+			isa = PBXGroup;
+			children = (
+				239EE8752C70E54C00F801C9 /* BGView.h */,
+				239EE8762C70E54C00F801C9 /* BGView.m */,
+				239EE8782C70E68E00F801C9 /* BGButton.h */,
+				239EE8792C70E68E00F801C9 /* BGButton.m */,
+				239EE87F2C72294800F801C9 /* SYFlatButton.h */,
+				239EE8802C72294800F801C9 /* SYFlatButton.m */,
+			);
+			path = SYFlatButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		239EE85E2C709F6D00F801C9 /* Atlas2LauncherQQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 239EE8722C709F6F00F801C9 /* Build configuration list for PBXNativeTarget "Atlas2LauncherQQ" */;
+			buildPhases = (
+				239EE85B2C709F6D00F801C9 /* Sources */,
+				239EE85C2C709F6D00F801C9 /* Frameworks */,
+				239EE85D2C709F6D00F801C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Atlas2LauncherQQ;
+			productName = Atlas2LauncherQQ;
+			productReference = 239EE85F2C709F6D00F801C9 /* Atlas2LauncherQQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		239EE8572C709F6D00F801C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					239EE85E2C709F6D00F801C9 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 239EE85A2C709F6D00F801C9 /* Build configuration list for PBXProject "Atlas2LauncherQQ" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 239EE8562C709F6D00F801C9;
+			productRefGroup = 239EE8602C709F6D00F801C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				239EE85E2C709F6D00F801C9 /* Atlas2LauncherQQ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		239EE85D2C709F6D00F801C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				239EE8692C709F6F00F801C9 /* Assets.xcassets in Resources */,
+				239EE86C2C709F6F00F801C9 /* Main.storyboard in Resources */,
+				239EE8862C723F7F00F801C9 /* getPlistName.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		239EE85B2C709F6D00F801C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				239EE87A2C70E68E00F801C9 /* BGButton.m in Sources */,
+				239EE8672C709F6D00F801C9 /* ViewController.m in Sources */,
+				239EE8812C72294800F801C9 /* SYFlatButton.m in Sources */,
+				239EE86E2C709F6F00F801C9 /* main.m in Sources */,
+				239EE8642C709F6D00F801C9 /* AppDelegate.m in Sources */,
+				239EE8772C70E54C00F801C9 /* BGView.m in Sources */,
+				239EE8842C72311A00F801C9 /* Common.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		239EE86A2C709F6F00F801C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				239EE86B2C709F6F00F801C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		239EE8702C709F6F00F801C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		239EE8712C709F6F00F801C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		239EE8732C709F6F00F801C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Atlas2LauncherQQ/Atlas2LauncherQQ.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhq.Atlas2LauncherQQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		239EE8742C709F6F00F801C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Atlas2LauncherQQ/Atlas2LauncherQQ.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhq.Atlas2LauncherQQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		239EE85A2C709F6D00F801C9 /* Build configuration list for PBXProject "Atlas2LauncherQQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				239EE8702C709F6F00F801C9 /* Debug */,
+				239EE8712C709F6F00F801C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		239EE8722C709F6F00F801C9 /* Build configuration list for PBXNativeTarget "Atlas2LauncherQQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				239EE8732C709F6F00F801C9 /* Debug */,
+				239EE8742C709F6F00F801C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 239EE8572C709F6D00F801C9 /* Project object */;
+}

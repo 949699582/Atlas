@@ -1,0 +1,5 @@
+TestName,TestActions,Disable,Input,Output,Timeout,Retries,AdditionalParameters,ExitEarly,SetPoison,Commands,FA,Condition,Notes
+PA_CHECK_WO,Common:getOrPostWithMES,,,(MES_result),,,"{""type"":""PA_CHECK_WO"",""WO"":""$[WO]"",""OPID"":""$[OP_ID]"",""SN"":""$[SN]""}",,,,,,
+,Common:createRecord,,(MES_result),,,,"{""subsubtestname"":""PA_CHECK_WO""}",,,,,,
+PA_CHANGE_WO,Common:getOrPostWithMES,,,(MES_result),,,"{""type"":""PA_CHANGE_WO"",""WO"":""$[WO]"",""OPID"":""$[OP_ID]"",""SN"":""$[SN]""}",,,,,,
+,Common:createRecord,,(MES_result),,,,"{""subsubtestname"":""PA_CHANGE_WO""}",,,,,,

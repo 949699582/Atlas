@@ -1,0 +1,32 @@
+Searching 128 files for "sendDutCommand"
+
+/Users/gdlocal/Library/Atlas2/Assets/Tech/Dut.csv:
+    1  TestName,TestActions,Disable,Input,Output,Timeout,Retries,AdditionalParameters,ExitEarly,SetPoison,Commands,FA,Condition,Notes
+    2  Read_SN,Common:openPort,,,(open_result),,,,,,,,,
+    3: ,Common:sendDutCommand,,,(read_SN_result),,,,,,syscfg print SrNm,,,
+    4  ,Common:regex,,(read_SN_result),[FG_SN],,,"{""pattern"":""SrNm: \""(.*)\""\n""}",,,,,,
+    5  ,Common:changeValueFailOrPass,,"(open_result),[FG_SN]",(sn_result),,,,,,,,,
+
+/Users/gdlocal/Library/Atlas2/Modules/Tech/SendCommand.lua:
+   92  end
+   93  
+   94: function sendFunc.sendDutCommand(paraTab)
+   95     local responseResult = ''
+   96      function excuteF()
+   97:         responseResult = sendFunc.sendDutCommandInter(paraTab)
+   98      end
+   99      function errorF(err)
+  100:         Log.LogInfo("------------Here is sendDutCommand Error-----------")
+  101          Log.LogInfo(err)
+  102:         Log.LogInfo("------------Here is sendDutCommand Error End-----------")
+  103          responseResult = err
+  104      end
+  ...
+  110  end
+  111  
+  112: function sendFunc.sendDutCommandInter(paraTab)
+  113:     Log.LogInfo('Running sendFunc.sendDutCommand')
+  114      local uart = paraTab.varSubAP()['portName'] or 'MCU1'
+  115      local command = paraTab.varSubCmd()
+
+7 matches across 2 files

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="18122" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="18122"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="SelectorButton">
+            <connections>
+                <outlet property="badButton" destination="raS-WG-VCO" id="ky9-fG-zN3"/>
+                <outlet property="mediumButton" destination="WWX-2x-H43" id="NgS-z3-SZD"/>
+                <outlet property="passButton" destination="nYq-ON-pcL" id="xnh-et-M5M"/>
+                <outlet property="passLable" destination="HoW-0u-xY1" id="6lx-Ab-tR9"/>
+                <outlet property="slightButton" destination="5Ff-dV-A0r" id="yfb-H7-zzs"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="272"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <stackView distribution="fill" orientation="horizontal" alignment="top" spacing="45" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yBY-f8-QJN">
+                    <rect key="frame" x="51" y="78" width="410" height="20"/>
+                    <subviews>
+                        <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="nYq-ON-pcL">
+                            <rect key="frame" x="-7" y="-7" width="67" height="32"/>
+                            <buttonCell key="cell" type="push" title="PASS" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="YwZ-sU-dmp">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="system"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="passAction:" target="-2" id="1Xc-nR-tdB"/>
+                            </connections>
+                        </button>
+                        <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="5Ff-dV-A0r">
+                            <rect key="frame" x="91" y="-7" width="88" height="32"/>
+                            <buttonCell key="cell" type="push" title="轻度噪声" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="vZO-EB-oB5">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" usesAppearanceFont="YES"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="slightAction:" target="-2" id="DAf-Tl-xc0"/>
+                            </connections>
+                        </button>
+                        <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="WWX-2x-H43">
+                            <rect key="frame" x="210" y="-7" width="88" height="32"/>
+                            <buttonCell key="cell" type="push" title="中度噪声" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="SXF-Ac-8hg">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" usesAppearanceFont="YES"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="mediumAction:" target="-2" id="3U4-s3-gA2"/>
+                            </connections>
+                        </button>
+                        <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="raS-WG-VCO">
+                            <rect key="frame" x="329" y="-7" width="88" height="32"/>
+                            <buttonCell key="cell" type="push" title="严重噪声" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="P9c-Qt-TyY">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" usesAppearanceFont="YES"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="badAction:" target="-2" id="ynv-QD-Jjh"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <visibilityPriorities>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                    </visibilityPriorities>
+                    <customSpacing>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                    </customSpacing>
+                </stackView>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="HoW-0u-xY1">
+                    <rect key="frame" x="49" y="182" width="187" height="16"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" title="请确认你听到的声音是否正常！" id="NmG-3R-bwR">
+                        <font key="font" usesAppearanceFont="YES"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="yBY-f8-QJN" secondAttribute="bottom" constant="78" id="7N1-iC-Z94"/>
+                <constraint firstItem="yBY-f8-QJN" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="51" id="Qp6-qi-qvl"/>
+                <constraint firstItem="yBY-f8-QJN" firstAttribute="top" secondItem="HoW-0u-xY1" secondAttribute="bottom" constant="84" id="WbU-Sl-kGg"/>
+                <constraint firstItem="HoW-0u-xY1" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="51" id="vVT-3A-Tnn"/>
+            </constraints>
+            <point key="canvasLocation" x="-248" y="56"/>
+        </customView>
+    </objects>
+</document>

@@ -1,0 +1,11 @@
+TestName,TestActions,Disable,Input,Output,Timeout,Retries,AdditionalParameters,ExitEarly,SetPoison,Commands,FA,Condition,Notes
+Read_SN,Common:openPort,,,(open_result),1,,,,,,,,
+,Common:sendDutCommand,,,(read_SN_result),1,,,,,syscfg print SrNm,,,
+,Common:regex,,(read_SN_result),[FG_SN],,,"{""pattern"":""SrNm: \""(.*)\""\n""}",,,,,,
+,Common:changeValueFailOrPass,,"(open_result),[FG_SN]",(sn_result),,,,,,,,,
+,Common:createRecord,,(sn_result),,,,"{""subsubtestname"":""Read_SN_From_Unit""}",,,,,,
+,M:createAttribute,,[FG_SN],,,,"{""attributeKey"":""Read_SN""}",,,,,,
+Compare_SN,Common:Compare,,"[FG_SN],[SN]",(compare_result),,,,,,,,,
+,Common:createRecord,,(compare_result),,,,"{""subsubtestname"":""Compare_SCAN_SN_With_Unit_SN""}",,,,,,
+Close_Port,Common:closePort,,[slot_index],(close_result),,,,,,,,,
+,Common:createRecord,,(close_result),,,,,,,,,,

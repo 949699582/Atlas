@@ -1,0 +1,3 @@
+"TestName","TestActions","Disable","Input","Output","Timeout","Retries","AdditionalParameters","ExitEarly","SetPoison","Commands","FA","Condition","Notes"
+"PingTest","Common:ping","","","[status]","","","","","","","","",""
+"","Common:createRecord","","[status]","","","","{""subsubtestname"":""Ping_MIX""}","","","","","",""

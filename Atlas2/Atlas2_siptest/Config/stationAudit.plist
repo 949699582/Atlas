@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Sequence</key>
+	<string>Matchbox/group.lua</string>
+	<key>StationName</key>
+	<string>Sip_Test</string>
+	<key>StationVersion</key>
+	<string>v1.0.18</string>
+	<key>InteractiveResourceName</key>
+	<string>Popup</string>
+	<key>DisableInstantPudding</key>
+	<false/>
+	<key>DetectionSequence</key>
+	<string>detect.lua</string>
+	<key>Audit</key>
+	<true/>
+	<key>GroupConfig</key>
+	<dict>
+		<key>Instances</key>
+		<integer>2</integer>
+		<key>SlotConfig</key>
+		<array>
+			<string>1</string>
+			<string>2</string>
+			<string>3</string>
+			<string>4</string>
+			<string>5</string>
+			<string>6</string>
+			<string>7</string>
+			<string>8</string>
+			<string>9</string>
+			<string>10</string>
+		</array>
+	</dict>
+	<key>ConsoleConfig</key>
+	<dict>
+		<key>AtlasUI</key>
+		<dict>
+			<key>RowColor</key>
+			<integer>1</integer>
+			<key>StatusViewPlugin</key>
+			<string>StatusTable.bundle</string>
+			<key>InteractiveViewPlugin</key>
+			<string>Popup.bundle</string>
+			<key>AlternateBackgroundColor</key>
+			<false/>
+			<key>StationInfoViewPlugin</key>
+			<string>CommonInfo.bundle</string>
+			<key>StatusViewConfig</key>
+			<dict>
+				<key>HideGroupNames</key>
+				<false/>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

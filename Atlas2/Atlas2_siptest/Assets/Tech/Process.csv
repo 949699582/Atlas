@@ -1,0 +1,2 @@
+TestName,TestActions,Disable,Input,Output,Timeout,Retries,AdditionalParameters,ExitEarly,SetPoison,Commands,FA,Condition,Notes
+StartTest,Common:startTest,,,,,,"{""args"":""DISCHARGE_AUD_PWR_LEFT CONNECT""}",,,prmrelay.relay,,,

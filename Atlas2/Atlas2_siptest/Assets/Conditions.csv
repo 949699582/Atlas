@@ -1,0 +1,13 @@
+ConditionName,Values,Dynamic
+serialNumber,AAA;BBB;DLXX0000AAAA;DDDD0000XXXX,
+diagVer,00011a;00011b;000111,
+isDisplayOn,TRUE;FALSE,Y
+boardID,0x3A;0x3B,
+isCmdSentSuccess,TRUE;FALSE,Y
+isValGotFromResponse,TRUE;FALSE,Y
+SITE,APPL;FXLH;GHDEV;PGKS,N
+third,YES;NO,Y
+isSNValid,true;false,Y
+FACondition,aConditionValue,Y
+aCondition,X;Y,y
+UOP,ON;OFF,Y

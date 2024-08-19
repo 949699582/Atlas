@@ -1,0 +1,11 @@
+TestName,TestActions,Disable,Input,Output,Timeout,Retries,AdditionalParameters,Commands,Condition,Notes
+SN,M:createCommandRecord,,,,,,,sn,,
+,M:createParametricRecord,,DLXX0000AAAA,,,,,,,
+Battery_Level1,M:createCommandRecord,,,,,,,device -k GasGauge -g charge-percentage,,
+,M:createParametricRecord,,75,,,,,,,
+FAForATechLine,Common:createFARecord,,,,,,"{""subsubtestname"": ""subsub in fa sequence""}",,,
+,Common:printVariable,,[TMColor],,,,"{""subsubtestname"": ""FA can read local/global/conditions of test""}",,,
+,M:setVariable,,localValue,(FALocal),,,"{""subsubtestname"": ""FA can generate local variable exists only in FA""}",,,
+,M:setVariable,,aConditionValue,{FACondition},,,"{""subsubtestname"": ""FA can generate condition exists only in FA""}",,,
+,Common:printVariable,,(FALocal),,,,,,FACondition==aConditionValue,
+,M:setVariable,,TRUE,{Hang},,,,,,

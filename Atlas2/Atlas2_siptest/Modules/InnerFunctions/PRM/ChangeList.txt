@@ -1,0 +1,29 @@
+****************readMe first****************
+1.comment:
++ :add a new issue or API.
+- :remove useless or error API.
+x :fix some exist bug.
+* :modify exist API.
+2.version format:
+   the overlay tag.
+   e.g. 1.0.9
+
+****************readMe first****************
+
+
+
+********************************************
+SW version  : 0.0.1
+Author      : Xing.Zheng
+Date        : 2023/06/13
+Change List :
+
+- :Remove touch test for ops M_SKU build
++ :modify plugin.lua for ops M_SKU DUT
++ :Change initKisport function in specific.lua for ops M_SKU build
+- :remove compare sky for ops M_SKU build because of the ops use E config sip for the ops M_SKU build
+
+********************************************
+
+
+

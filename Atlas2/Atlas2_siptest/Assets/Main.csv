@@ -1,0 +1,11 @@
+TestName,Technology,Disable,Production,Audit,Thread,Policy,Loop,Sample,SOF,Condition,Notes
+Slot_Index,CommonProcess,,Y,Y,,,,,,,
+Group_Index,CommonProcess,,Y,Y,,,,,,,
+Info,Fixture,,Y,Y,,,,,Y,,
+CheckUOP,Fixture,,Y,,,,,,Y,,
+VoltageCheck,Power,,Y,Y,,,,,Y,,
+DiagsFW_Version,DUTInfo,,Y,Y,,,,,Y,,
+SensorData_KadabraInfo,Optical,,Y,Y,,,,,Y,,
+LoopBack_Mic1,Mic,,Y,Y,,,,,Y,,
+LoopBack_Mic2,Mic,,Y,Y,,,,,Y,,
+LoopBack_Mic3,Mic,,Y,Y,,,,,Y,,

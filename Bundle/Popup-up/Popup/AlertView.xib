@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21507"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="AlertView">
+            <connections>
+                <outlet property="msg" destination="HEW-uC-vDe" id="JAN-Vt-S58"/>
+                <outlet property="ok" destination="VdD-at-aAa" id="nRU-UH-r4d"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="396" height="198"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="HEW-uC-vDe">
+                    <rect key="frame" x="18" y="98" width="360" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="FmI-AE-c55"/>
+                    </constraints>
+                    <textFieldCell key="cell" selectable="YES" alignment="left" id="P2W-cB-Lom">
+                        <font key="font" metaFont="system" size="18"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="VdD-at-aAa">
+                    <rect key="frame" x="168" y="29" width="61" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="47" id="5Jc-Al-0ha"/>
+                        <constraint firstAttribute="height" constant="36" id="8og-cM-q5R"/>
+                    </constraints>
+                    <buttonCell key="cell" type="push" title="OK" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" sound="Frog" inset="2" id="OJ3-Sd-Pq4">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                        <string key="keyEquivalent" base64-UTF8="YES">
+DQ
+</string>
+                    </buttonCell>
+                    <connections>
+                        <action selector="clickok:" target="-2" id="YAq-qD-AWa"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="VdD-at-aAa" firstAttribute="centerX" secondItem="Hz6-mo-xeY" secondAttribute="centerX" id="3QB-oa-7yJ"/>
+                <constraint firstItem="VdD-at-aAa" firstAttribute="top" secondItem="HEW-uC-vDe" secondAttribute="bottom" constant="26" id="OB9-c9-dvE"/>
+                <constraint firstItem="HEW-uC-vDe" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="20" id="QHm-Rz-0GS"/>
+                <constraint firstAttribute="trailing" secondItem="HEW-uC-vDe" secondAttribute="trailing" constant="20" id="qYI-ck-oEK"/>
+                <constraint firstItem="HEW-uC-vDe" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" constant="20" id="tZY-iD-13j"/>
+            </constraints>
+            <point key="canvasLocation" x="54" y="-42"/>
+        </customView>
+    </objects>
+    <resources>
+        <sound name="Frog"/>
+    </resources>
+</document>

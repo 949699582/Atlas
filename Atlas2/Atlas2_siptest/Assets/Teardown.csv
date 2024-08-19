@@ -1,0 +1,4 @@
+TestName,Technology,Disable,Production,Audit,Thread,Policy,Loop,Sample,SOF,Condition,Notes
+Close_Port,Dut,,Y,Y,,,,,,,
+Transition_Log,CommonProcess,,Y,Y,,,,,,,
+addLogToInsight,Fixture,Y,Y,Y,,,,,,,

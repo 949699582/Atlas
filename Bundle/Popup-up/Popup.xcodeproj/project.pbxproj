@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		233A8EFF2C54A4650045E687 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 233A8EFD2C54A4650045E687 /* Common.m */; };
+		5548555B2627E91D00B3EEE0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5548555A2627E91D00B3EEE0 /* Cocoa.framework */; };
+		5548555D2627E91D00B3EEE0 /* AtlasUIExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5548555C2627E91D00B3EEE0 /* AtlasUIExtension.framework */; };
+		5548555F2627E91D00B3EEE0 /* AtlasLuaSequencer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5548555E2627E91D00B3EEE0 /* AtlasLuaSequencer.framework */; };
+		554855612627E91D00B3EEE0 /* AtlasLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554855602627E91D00B3EEE0 /* AtlasLogging.framework */; };
+		554855642627E91D00B3EEE0 /* Popup.xib in Resources */ = {isa = PBXBuildFile; fileRef = 554855632627E91D00B3EEE0 /* Popup.xib */; };
+		554855672627E91D00B3EEE0 /* Popup.m in Sources */ = {isa = PBXBuildFile; fileRef = 554855662627E91D00B3EEE0 /* Popup.m */; };
+		554855712627E9A600B3EEE0 /* PassWordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5548556F2627E9A500B3EEE0 /* PassWordVC.m */; };
+		554855722627E9A600B3EEE0 /* PassWordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 554855702627E9A500B3EEE0 /* PassWordVC.xib */; };
+		554855762627EB4E00B3EEE0 /* AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 554855742627EB4E00B3EEE0 /* AlertView.m */; };
+		554855772627EB4E00B3EEE0 /* AlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 554855752627EB4E00B3EEE0 /* AlertView.xib */; };
+		5548557A2627EEBE00B3EEE0 /* PassWordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 554855792627EEBE00B3EEE0 /* PassWordModel.m */; };
+		611B4A4F2716D79500216FF5 /* AlertMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 611B4A4D2716D79500216FF5 /* AlertMessageView.m */; };
+		611B4A502716D79500216FF5 /* AlertMessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 611B4A4E2716D79500216FF5 /* AlertMessageView.xib */; };
+		A2CE5EA32888F8B7008F4C26 /* SelectorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CE5EA12888F8B7008F4C26 /* SelectorButton.m */; };
+		A2CE5EA42888F8B7008F4C26 /* SelectorButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2CE5EA22888F8B7008F4C26 /* SelectorButton.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		233A8EFD2C54A4650045E687 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		233A8EFE2C54A4650045E687 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		554855572627E91D00B3EEE0 /* Popup.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Popup.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5548555A2627E91D00B3EEE0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5548555C2627E91D00B3EEE0 /* AtlasUIExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AtlasUIExtension.framework; path = Library/Frameworks/AtlasUIExtension.framework; sourceTree = DEVELOPER_DIR; };
+		5548555E2627E91D00B3EEE0 /* AtlasLuaSequencer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AtlasLuaSequencer.framework; path = Library/Frameworks/AtlasLuaSequencer.framework; sourceTree = DEVELOPER_DIR; };
+		554855602627E91D00B3EEE0 /* AtlasLogging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AtlasLogging.framework; path = Library/Frameworks/AtlasLogging.framework; sourceTree = DEVELOPER_DIR; };
+		554855632627E91D00B3EEE0 /* Popup.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Popup.xib; sourceTree = "<group>"; };
+		554855652627E91D00B3EEE0 /* Popup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Popup.h; sourceTree = "<group>"; };
+		554855662627E91D00B3EEE0 /* Popup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Popup.m; sourceTree = "<group>"; };
+		554855682627E91D00B3EEE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5548556E2627E9A500B3EEE0 /* PassWordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassWordVC.h; sourceTree = "<group>"; };
+		5548556F2627E9A500B3EEE0 /* PassWordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassWordVC.m; sourceTree = "<group>"; };
+		554855702627E9A500B3EEE0 /* PassWordVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PassWordVC.xib; sourceTree = "<group>"; };
+		554855732627EB4E00B3EEE0 /* AlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertView.h; sourceTree = "<group>"; };
+		554855742627EB4E00B3EEE0 /* AlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertView.m; sourceTree = "<group>"; };
+		554855752627EB4E00B3EEE0 /* AlertView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertView.xib; sourceTree = "<group>"; };
+		554855782627EEBE00B3EEE0 /* PassWordModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PassWordModel.h; sourceTree = "<group>"; };
+		554855792627EEBE00B3EEE0 /* PassWordModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PassWordModel.m; sourceTree = "<group>"; };
+		611B4A4C2716D79500216FF5 /* AlertMessageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertMessageView.h; sourceTree = "<group>"; };
+		611B4A4D2716D79500216FF5 /* AlertMessageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertMessageView.m; sourceTree = "<group>"; };
+		611B4A4E2716D79500216FF5 /* AlertMessageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertMessageView.xib; sourceTree = "<group>"; };
+		A2CE5EA02888F8B7008F4C26 /* SelectorButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectorButton.h; sourceTree = "<group>"; };
+		A2CE5EA12888F8B7008F4C26 /* SelectorButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectorButton.m; sourceTree = "<group>"; };
+		A2CE5EA22888F8B7008F4C26 /* SelectorButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectorButton.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		554855542627E91D00B3EEE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5548555D2627E91D00B3EEE0 /* AtlasUIExtension.framework in Frameworks */,
+				5548555F2627E91D00B3EEE0 /* AtlasLuaSequencer.framework in Frameworks */,
+				554855612627E91D00B3EEE0 /* AtlasLogging.framework in Frameworks */,
+				5548555B2627E91D00B3EEE0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5548554E2627E91D00B3EEE0 = {
+			isa = PBXGroup;
+			children = (
+				554855622627E91D00B3EEE0 /* Popup */,
+				554855592627E91D00B3EEE0 /* Frameworks */,
+				554855582627E91D00B3EEE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		554855582627E91D00B3EEE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				554855572627E91D00B3EEE0 /* Popup.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		554855592627E91D00B3EEE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5548555A2627E91D00B3EEE0 /* Cocoa.framework */,
+				5548555C2627E91D00B3EEE0 /* AtlasUIExtension.framework */,
+				5548555E2627E91D00B3EEE0 /* AtlasLuaSequencer.framework */,
+				554855602627E91D00B3EEE0 /* AtlasLogging.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		554855622627E91D00B3EEE0 /* Popup */ = {
+			isa = PBXGroup;
+			children = (
+				5548556E2627E9A500B3EEE0 /* PassWordVC.h */,
+				5548556F2627E9A500B3EEE0 /* PassWordVC.m */,
+				554855702627E9A500B3EEE0 /* PassWordVC.xib */,
+				554855632627E91D00B3EEE0 /* Popup.xib */,
+				554855652627E91D00B3EEE0 /* Popup.h */,
+				554855662627E91D00B3EEE0 /* Popup.m */,
+				554855782627EEBE00B3EEE0 /* PassWordModel.h */,
+				554855792627EEBE00B3EEE0 /* PassWordModel.m */,
+				554855682627E91D00B3EEE0 /* Info.plist */,
+				233A8EFE2C54A4650045E687 /* Common.h */,
+				233A8EFD2C54A4650045E687 /* Common.m */,
+				554855732627EB4E00B3EEE0 /* AlertView.h */,
+				554855742627EB4E00B3EEE0 /* AlertView.m */,
+				554855752627EB4E00B3EEE0 /* AlertView.xib */,
+				A2CE5EA02888F8B7008F4C26 /* SelectorButton.h */,
+				A2CE5EA12888F8B7008F4C26 /* SelectorButton.m */,
+				A2CE5EA22888F8B7008F4C26 /* SelectorButton.xib */,
+				611B4A4C2716D79500216FF5 /* AlertMessageView.h */,
+				611B4A4D2716D79500216FF5 /* AlertMessageView.m */,
+				611B4A4E2716D79500216FF5 /* AlertMessageView.xib */,
+			);
+			path = Popup;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		554855562627E91D00B3EEE0 /* Popup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5548556B2627E91D00B3EEE0 /* Build configuration list for PBXNativeTarget "Popup" */;
+			buildPhases = (
+				554855532627E91D00B3EEE0 /* Sources */,
+				554855542627E91D00B3EEE0 /* Frameworks */,
+				554855552627E91D00B3EEE0 /* Resources */,
+				5548557B2628019200B3EEE0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Popup;
+			productName = Popup;
+			productReference = 554855572627E91D00B3EEE0 /* Popup.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5548554F2627E91D00B3EEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "luxshare-ict.jax";
+				TargetAttributes = {
+					554855562627E91D00B3EEE0 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 554855522627E91D00B3EEE0 /* Build configuration list for PBXProject "Popup" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5548554E2627E91D00B3EEE0;
+			productRefGroup = 554855582627E91D00B3EEE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				554855562627E91D00B3EEE0 /* Popup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		554855552627E91D00B3EEE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554855772627EB4E00B3EEE0 /* AlertView.xib in Resources */,
+				A2CE5EA42888F8B7008F4C26 /* SelectorButton.xib in Resources */,
+				611B4A502716D79500216FF5 /* AlertMessageView.xib in Resources */,
+				554855642627E91D00B3EEE0 /* Popup.xib in Resources */,
+				554855722627E9A600B3EEE0 /* PassWordVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5548557B2628019200B3EEE0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\ncp -rf \"$TARGET_BUILD_DIR/\" $HOME/Library/Atlas2/Assets\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		554855532627E91D00B3EEE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2CE5EA32888F8B7008F4C26 /* SelectorButton.m in Sources */,
+				611B4A4F2716D79500216FF5 /* AlertMessageView.m in Sources */,
+				554855762627EB4E00B3EEE0 /* AlertView.m in Sources */,
+				554855672627E91D00B3EEE0 /* Popup.m in Sources */,
+				5548557A2627EEBE00B3EEE0 /* PassWordModel.m in Sources */,
+				554855712627E9A600B3EEE0 /* PassWordVC.m in Sources */,
+				233A8EFF2C54A4650045E687 /* Common.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		554855692627E91D00B3EEE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5548556A2627E91D00B3EEE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5548556C2627E91D00B3EEE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.1;
+				FRAMEWORK_SEARCH_PATHS = /AppleInternal/Library/Frameworks/;
+				INFOPLIST_FILE = Popup/Info.plist;
+				INSTALL_PATH = /usr/local/Atlas/Assets/;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goertek.Popup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5548556D2627E91D00B3EEE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.1;
+				FRAMEWORK_SEARCH_PATHS = /AppleInternal/Library/Frameworks/;
+				INFOPLIST_FILE = Popup/Info.plist;
+				INSTALL_PATH = /usr/local/Atlas/Assets/;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goertek.Popup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		554855522627E91D00B3EEE0 /* Build configuration list for PBXProject "Popup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				554855692627E91D00B3EEE0 /* Debug */,
+				5548556A2627E91D00B3EEE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5548556B2627E91D00B3EEE0 /* Build configuration list for PBXNativeTarget "Popup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5548556C2627E91D00B3EEE0 /* Debug */,
+				5548556D2627E91D00B3EEE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5548554F2627E91D00B3EEE0 /* Project object */;
+}
